@@ -1,0 +1,13 @@
+.container section {
+    margin: 2em 20em;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+@media (min-width: 720px) and (max-width: 1049px) {
+    .container section {
+        margin: 2em 0;
+    }
+}

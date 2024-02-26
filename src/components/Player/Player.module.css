@@ -1,0 +1,16 @@
+iframe {
+    height: 80vh;
+}
+
+@media (max-width: 720px) {
+    iframe {
+        height: 60vh;
+    }
+}
+
+
+@media (max-width: 375px) {
+    iframe {
+        height: 40vh;
+    }
+}
